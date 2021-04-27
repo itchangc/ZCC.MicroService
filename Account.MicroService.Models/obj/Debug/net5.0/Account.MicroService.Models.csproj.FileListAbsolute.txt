@@ -1,0 +1,12 @@
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\bin\Debug\net5.0\Account.MicroService.Models.deps.json
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\bin\Debug\net5.0\Account.MicroService.Models.dll
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\bin\Debug\net5.0\ref\Account.MicroService.Models.dll
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\bin\Debug\net5.0\Account.MicroService.Models.pdb
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\obj\Debug\net5.0\Account.MicroService.Models.GeneratedMSBuildEditorConfig.editorconfig
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\obj\Debug\net5.0\Account.MicroService.Models.AssemblyInfoInputs.cache
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\obj\Debug\net5.0\Account.MicroService.Models.AssemblyInfo.cs
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\obj\Debug\net5.0\Account.MicroService.Models.csproj.CoreCompileInputs.cache
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\obj\Debug\net5.0\Account.MicroService.Models.dll
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\obj\Debug\net5.0\ref\Account.MicroService.Models.dll
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\obj\Debug\net5.0\Account.MicroService.Models.pdb
+G:\TestCode\vs\ZCC.MicroService\Account.MicroService.Models\obj\Debug\net5.0\Account.MicroService.Models.csprojAssemblyReference.cache

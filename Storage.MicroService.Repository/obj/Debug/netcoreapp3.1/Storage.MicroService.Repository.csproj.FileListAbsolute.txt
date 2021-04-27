@@ -1,0 +1,4 @@
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Repository\obj\Debug\netcoreapp3.1\Storage.MicroService.Repository.csprojAssemblyReference.cache
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Repository\obj\Debug\netcoreapp3.1\Storage.MicroService.Repository.AssemblyInfoInputs.cache
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Repository\obj\Debug\netcoreapp3.1\Storage.MicroService.Repository.AssemblyInfo.cs
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Repository\obj\Debug\netcoreapp3.1\Storage.MicroService.Repository.csproj.CoreCompileInputs.cache

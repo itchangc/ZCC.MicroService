@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Polly" Version="7.2.1" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\Order.MicroService.Common\Order.MicroService.Common.csproj" />
+    <ProjectReference Include="..\Order.MicroService.IService\Order.MicroService.IService.csproj" />
+    <ProjectReference Include="..\Order.MicroService.Repository\Order.MicroService.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

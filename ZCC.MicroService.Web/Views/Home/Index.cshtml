@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <fieldset style="align-content:center;border:1px solid dashed">
+        <legend>下订单入口</legend>
+        <form id="createOrderForm" metod="post">
+            <p>商品ID:<input type="text" name="productId"></p>
+            <p>用户ID:<input type="text" name="userId"></p>
+            <p>商品数量:<input type="text" name="count"></p>
+            <p>价格:<input type="text" name="money"></p>
+            <p><input type="button" id="createBtn" value="提交"></p>
+        </form>
+    </fieldset>
+    <hr />
+    <div id="msg"></div>
+</div>
+@section Scripts {
+    <script>
+        $("#createBtn").click(function () {
+            var data = $("#createOrderForm").serialize();
+            $.post("http://192.168.1.3:10000/api/Order/create",data,
+                function (resp) {
+                    $("#msg").html(resp.message);
+                });
+        });
+
+         // 不使用网关访问，直接连接
+        //    $("#createBtn").click(function () {
+        //    var data = $("#createOrderForm").serialize();
+        //        $.post("http://192.168.1.3:8000/api/Order/create", data,
+        //        function (resp) {
+        //            $("#msg").html(resp.message);
+        //        });
+        //});
+    </script>
+}
+

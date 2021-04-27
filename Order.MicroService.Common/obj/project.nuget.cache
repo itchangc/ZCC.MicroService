@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "UB9m/1tKoz0ZSqBuW1y0TLpCHeU/0UI6hMjv0isLzqIMJPORx4Fa2AVjxZXSwLBYSijsRR5fcDu59aGzRlbmYw==",
+  "success": true,
+  "projectFilePath": "G:\\TestCode\\vs\\ZCC.MicroService\\Order.MicroService.Common\\Order.MicroService.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\consul\\1.6.1.1\\consul.1.6.1.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

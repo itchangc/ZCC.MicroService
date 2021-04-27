@@ -1,0 +1,9 @@
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Common\bin\Debug\netcoreapp3.1\Storage.MicroService.Common.deps.json
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Common\bin\Debug\netcoreapp3.1\Storage.MicroService.Common.dll
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Common\bin\Debug\netcoreapp3.1\Storage.MicroService.Common.pdb
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Common\obj\Debug\netcoreapp3.1\Storage.MicroService.Common.csprojAssemblyReference.cache
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Common\obj\Debug\netcoreapp3.1\Storage.MicroService.Common.AssemblyInfoInputs.cache
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Common\obj\Debug\netcoreapp3.1\Storage.MicroService.Common.AssemblyInfo.cs
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Common\obj\Debug\netcoreapp3.1\Storage.MicroService.Common.csproj.CoreCompileInputs.cache
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Common\obj\Debug\netcoreapp3.1\Storage.MicroService.Common.dll
+G:\TestCode\vs\ZCC.MicroService\Storage.MicroService.Common\obj\Debug\netcoreapp3.1\Storage.MicroService.Common.pdb

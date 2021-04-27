@@ -1,0 +1,15 @@
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\bin\Debug\net5.0\Order.MicroService.IService.deps.json
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\bin\Debug\net5.0\Order.MicroService.IService.dll
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\bin\Debug\net5.0\ref\Order.MicroService.IService.dll
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\bin\Debug\net5.0\Order.MicroService.IService.pdb
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\bin\Debug\net5.0\Order.MicroService.Models.dll
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\bin\Debug\net5.0\Order.MicroService.Models.pdb
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\obj\Debug\net5.0\Order.MicroService.IService.csprojAssemblyReference.cache
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\obj\Debug\net5.0\Order.MicroService.IService.GeneratedMSBuildEditorConfig.editorconfig
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\obj\Debug\net5.0\Order.MicroService.IService.AssemblyInfoInputs.cache
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\obj\Debug\net5.0\Order.MicroService.IService.AssemblyInfo.cs
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\obj\Debug\net5.0\Order.MicroService.IService.csproj.CoreCompileInputs.cache
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\obj\Debug\net5.0\Order.MicroService.IService.csproj.CopyComplete
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\obj\Debug\net5.0\Order.MicroService.IService.dll
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\obj\Debug\net5.0\ref\Order.MicroService.IService.dll
+G:\TestCode\vs\ZCC.MicroService\Order.MicroService.IService\obj\Debug\net5.0\Order.MicroService.IService.pdb

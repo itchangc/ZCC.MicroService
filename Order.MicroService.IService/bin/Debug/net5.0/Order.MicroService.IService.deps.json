@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Order.MicroService.IService/1.0.0": {
+        "dependencies": {
+          "Order.MicroService.Models": "1.0.0"
+        },
+        "runtime": {
+          "Order.MicroService.IService.dll": {}
+        }
+      },
+      "Order.MicroService.Models/1.0.0": {
+        "runtime": {
+          "Order.MicroService.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Order.MicroService.IService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Order.MicroService.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

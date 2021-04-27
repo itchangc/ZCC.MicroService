@@ -1,0 +1,79 @@
+//////////////////////////////////// 单独使用Consul ///////////////////////////////
+//{
+//  "routes": [
+//    {
+//      // http://192.168.1.3:10000/api/order/create  => {url} = /api/order/create
+//      // http://192.168.1.3:8000/api/order/create
+//      "upstreampathtemplate": "/{url}", //网关地址--url变量
+//      "upstreamhttpmethod": [ "get", "post" ],
+//      "downstreampathtemplate": "/{url}", //服务地址--url变量
+//      "downstreamscheme": "http",
+//      "downstreamhostandports": [
+//        {
+//          "host": "192.168.1.3",
+//          "port": 8000 // 端口
+//        }
+//      ],
+//      "downstreamheadertransform": { // 配置跨域
+//        "access-control-allow-origin": "*", 
+//        "access-control-allow-methods": "*",
+//        "access-control-allow-headers": "*"
+//      }
+//    }
+//  ]
+//}
+
+//////////////////////////////// Ocelot + Consul + RateLimit ////////////////////////////////////
+
+{
+  "Routes": [
+    {
+      "UpstreamPathTemplate": "/{url}", //网关地址--url变量
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "UseServiceDiscovery": true,
+      "ServiceName": "Orderservice",
+      "LoadBalancerOptions": {
+        "Type": "RoundRobin" //轮询      LeastConnection-最少连接数的服务器   NoLoadBalance不负载均衡
+      },
+      "DownstreamPathTemplate": "/{url}", //服务地址--url变量
+      "DownstreamScheme": "http",
+      "DownstreamHeaderTransform": { // 配置跨域
+        //"Access-Control-Allow-Origin": "http://192.168.1.3:8000", //不存在就添加
+        "Access-Control-Allow-Origin": "*", //不存在就添加
+        "Access-Control-Allow-Methods": "*",
+        "Access-Control-Allow-Headers": "*"
+      },
+      "RateLimitOptions": {
+        "ClientWhitelist": [ "SuperClient" ],
+        "EnableRateLimiting": true, // 启用限流
+        "Period": "10s", // 限流5s
+        "PeriodTimespan": 2, // 2秒
+        "Limit": 2 // 请求最大次数
+      },
+      "QoSOptions": { // 配置服务熔断
+        "ExceptionsAllowedBeforeBreaking": 3, // 发生3次异常
+        "DurationOfBreak": 10000, // 
+        "TimeoutValue": 50000 // 发生超时，请求超过5秒=5000
+      }
+      //,
+      //"AuthenticationOptions": { //配置ids
+      //  "AuthenticationProviderKey": "SampleKey",
+      //  "AllowedScopes": [ "gatewayScope" ]
+      //}
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://192.168.1.3:10000", //网关对外地址
+    "ServiceDiscoveryProvider": {
+      "Host": "192.168.217.129",
+      "Port": 8500,
+      "Type": "Consul" //由Consul提供服务发现, 每次请求去consul
+    }, //Ocelot没有支持配置多个Consul
+    "RateLimitOptions": {
+      "DisableRateLimitHeaders": false,
+      "QuotaExceededMessage": "too many requests...",
+      "HttpStatusCode": 999,
+      "ClientIdHeader": "Test"
+    }
+  }
+}
